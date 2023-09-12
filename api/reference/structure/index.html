@@ -140,17 +140,6 @@
     </div>
     <div data-md-component="announce">
       
-        <aside class="md-banner">
-          <div class="md-banner__inner md-grid md-typeset">
-            
-            
-    The documenation has been moved and can now be found at <a href="https://asl.andre601.ch" target="_blank" rel="noreferral nofollow noopener"><strong>asl.andre601.ch</strong></a>.<br>
-    This page in particular can be found at <a href="https://asl.andre601.ch/api/reference/structure/" target="_blank" rel="noreferral nofollow noopener"><strong>asl.andre601.ch/api/reference/structure/</strong></a>.
-  
-          </div>
-          
-        </aside>
-      
     </div>
     
     
@@ -2427,9 +2416,21 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-                  
+                  <!-- Tags -->
 
 
+<!-- Actions -->
+
+
+
+
+<!--
+  Hack: check whether the content contains a h1 headline. If it doesn't, the
+  page title (or respectively site name) is used as the main headline.
+-->
+
+
+<!-- Page content -->
 <h1 id="api-reference-docs-structure">API Reference Docs Structure<a class="headerlink" href="#api-reference-docs-structure" title="Permanent link">&para;</a></h1>
 <p>The Reference docs follow a specific mixture of manually created and auto-generated page content.</p>
 <p>A page may look something like this:
@@ -2621,9 +2622,15 @@ These templates pull the data from the YAML frontmatter to generate the page con
 <li><code>methods</code> - List of strings to display. Each will be linked using <code>{link}#{method}</code></li>
 </ul>
 
+<!-- Source file information -->
+
+
+<!-- Was this page helpful? -->
 
 
 
+
+<!-- Comment system -->
 
                 
               </article>

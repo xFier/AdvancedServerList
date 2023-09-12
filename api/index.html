@@ -140,17 +140,6 @@
     </div>
     <div data-md-component="announce">
       
-        <aside class="md-banner">
-          <div class="md-banner__inner md-grid md-typeset">
-            
-            
-    The documenation has been moved and can now be found at <a href="https://asl.andre601.ch" target="_blank" rel="noreferral nofollow noopener"><strong>asl.andre601.ch</strong></a>.<br>
-    This page in particular can be found at <a href="https://asl.andre601.ch/api/" target="_blank" rel="noreferral nofollow noopener"><strong>asl.andre601.ch/api/</strong></a>.
-  
-          </div>
-          
-        </aside>
-      
     </div>
     
     
@@ -2431,9 +2420,21 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-                  
+                  <!-- Tags -->
 
 
+<!-- Actions -->
+
+
+
+
+<!--
+  Hack: check whether the content contains a h1 headline. If it doesn't, the
+  page title (or respectively site name) is used as the main headline.
+-->
+
+
+<!-- Page content -->
 <h1 id="api">API<a class="headerlink" href="#api" title="Permanent link">&para;</a></h1>
 <p>AdvancedServerList v2 introduced a new API that plugins can hook into to use.<br />
 It provides a way for your plugin to provide its own placeholders that should be parsed by AdvancedServerList and also an event to modify the server list.</p>
@@ -2559,9 +2560,15 @@ It allows you to modify the ProfileEntry used for the player pinging the server/
 <p>This class contains values from a Server List Profile file. The values can either be from a <code>profiles</code> list entry, one of the global options in the file, or a mix of both, depending on what options are present.<br />
 You can create a new entry or copy an existing one (i.e. from the <a href="#events"><code>PreServerListSetEvent</code></a>) to modify and use in the server list by setting it in the aforementioned <code>PreServerListSetEvent</code>.</p>
 
+<!-- Source file information -->
+
+
+<!-- Was this page helpful? -->
 
 
 
+
+<!-- Comment system -->
 
                 
               </article>
