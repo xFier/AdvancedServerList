@@ -6,11 +6,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://asl.andre601.ch/commands/</loc>
-         <lastmod>2023-09-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://asl.andre601.ch/api/</loc>
          <lastmod>2023-09-12</lastmod>
          <changefreq>daily</changefreq>
@@ -137,6 +132,11 @@
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/platform-velocity/ch.andre601.advancedserverlist.api.velocity/objects/velocityproxy/</loc>
+         <lastmod>2023-09-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://asl.andre601.ch/commands/</loc>
          <lastmod>2023-09-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
