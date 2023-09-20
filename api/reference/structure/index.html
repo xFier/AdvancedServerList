@@ -218,21 +218,13 @@
     
     
       <div class="md-header__source">
-        <a
-  href="https://codeberg.org/Andre601/AdvancedServerList"
-  title="Go to repository"
-  class="md-source"
-  target="_blank"
-  rel="nofollow noreferral noopener"
->
+        <a href="https://codeberg.org/Andre601/AdvancedServerList" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.955.49A12 12 0 0 0 0 12.49a12 12 0 0 0 1.832 6.373L11.838 5.928a.187.14 0 0 1 .324 0l10.006 12.935A12 12 0 0 0 24 12.49a12 12 0 0 0-12-12 12 12 0 0 0-.045 0zm.375 6.467 4.416 16.553a12 12 0 0 0 5.137-4.213z"/></svg>
   </div>
   <div class="md-source__repository">
     Andre601/AdvancedServerList
-    <ul class="md-source__facts" data-md-component="codeberg-stats">
-    </ul>
   </div>
 </a>
       </div>
@@ -435,21 +427,13 @@
   </label>
   
     <div class="md-nav__source">
-      <a
-  href="https://codeberg.org/Andre601/AdvancedServerList"
-  title="Go to repository"
-  class="md-source"
-  target="_blank"
-  rel="nofollow noreferral noopener"
->
+      <a href="https://codeberg.org/Andre601/AdvancedServerList" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.955.49A12 12 0 0 0 0 12.49a12 12 0 0 0 1.832 6.373L11.838 5.928a.187.14 0 0 1 .324 0l10.006 12.935A12 12 0 0 0 24 12.49a12 12 0 0 0-12-12 12 12 0 0 0-.045 0zm.375 6.467 4.416 16.553a12 12 0 0 0 5.137-4.213z"/></svg>
   </div>
   <div class="md-source__repository">
     Andre601/AdvancedServerList
-    <ul class="md-source__facts" data-md-component="codeberg-stats">
-    </ul>
   </div>
 </a>
     </div>
@@ -2435,6 +2419,8 @@
 <p>The Reference docs follow a specific mixture of manually created and auto-generated page content.</p>
 <p>A page may look something like this:
 <div class="highlight"><pre><span></span><code>---
+template: api-doc.html
+
 constructors:
 <span class="w">  </span><span class="k">-</span><span class="w"> </span>name: &#39;Constructor&#39;
     description: &#39;Creates a new instance of this class.&#39;
@@ -2464,6 +2450,7 @@ Below is a list of all custom tags. Note that these tags only render on the actu
 <li><code>&lt;api__final&gt;&lt;/api__final&gt;</code>: <api__final></api__final></li>
 <li><code>&lt;api__notnull&gt;&lt;/api__notnull&gt;</code>: <api__notnull></api__notnull></li>
 <li><code>&lt;api__nullable&gt;&lt;/api__nullable&gt;</code>: <api__nullable></api__nullable></li>
+<li><code>&lt;api__deprecated&gt;&lt;/api__deprecated&gt;</code>: <api__deprecated></api__deprecated></li>
 </ul>
 <p>In addition are there two classes used within <code>span</code> tags to colour the text, to indicate their type:</p>
 <ul>
@@ -2491,10 +2478,11 @@ These templates pull the data from the YAML frontmatter to generate the page con
 <span class="w">        </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;&lt;string&gt;&#39;</span>
 <span class="w">        </span><span class="nt">attributes</span><span class="p">:</span>
 <span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&#39;&lt;string&gt;&#39;</span>
+<span class="w">    </span><span class="nt">deprecated</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;&lt;string&gt;&#39;</span>
 <span class="w">    </span><span class="nt">throws</span><span class="p">:</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;&lt;string&gt;&#39;</span>
 <span class="w">        </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;&lt;string&gt;&#39;</span>
-<span class="w">    </span><span class="nt">seealos</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">seealso</span><span class="p">:</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;&lt;string&gt;&#39;</span>
 <span class="w">        </span><span class="nt">link</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;&lt;string&gt;&#39;</span>
 </code></pre></div>
@@ -2509,6 +2497,7 @@ These templates pull the data from the YAML frontmatter to generate the page con
 <li><code>attributes</code> - List of attributes (i.e. nullability) to display. The provided values will be turned into <code>&lt;api__{name}&gt;&lt;/api__{name}&gt;</code> tags that will be prependet to the parameter name.</li>
 </ul>
 </li>
+<li><code>deprecated</code> - Adds a notice about the deprecation of this Constructor in the form of a deprecation label and a <code>deprecated</code> section with the provided explanation.</li>
 <li><code>throws</code> - List of possible throws to display.<ul>
 <li><code>name</code> - Name of the throw to display.</li>
 <li><code>description</code> - Description of the throw.</li>
@@ -2539,6 +2528,7 @@ These templates pull the data from the YAML frontmatter to generate the page con
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;&lt;string&gt;&#39;</span>
 <span class="w">    </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;&lt;string&gt;&#39;</span>
 <span class="w">    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;&lt;string&gt;&#39;</span>
+<span class="w">    </span><span class="nt">deprecated</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;&lt;string&gt;&#39;</span>
 <span class="w">    </span><span class="nt">seealso</span><span class="p">:</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;&lt;string&gt;&#39;</span>
 <span class="w">        </span><span class="nt">link</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;&lt;string&gt;&#39;</span>
@@ -2548,6 +2538,7 @@ These templates pull the data from the YAML frontmatter to generate the page con
 <li><code>name</code> - The name to display for the Constructor summary and detail. This should include any parameters the Constructor has, but without any parameter name.</li>
 <li><code>description</code> - The description to display for the Constructor.</li>
 <li><code>type</code> - The return type to display. Will default to <code>{{ page.title }}</code> if not set.</li>
+<li><code>deprecated</code> - Adds a notice about the deprecation of this Enum in the form of a deprecation label and a <code>deprecated</code> section with the provided explanation.</li>
 <li><code>seealso</code> - List of "See also" text to display.<ul>
 <li><code>name</code> - Name of the See also link.</li>
 <li><code>link</code> - Link (Relative, absolute or URL) to use for the See also text.</li>
@@ -2571,6 +2562,7 @@ These templates pull the data from the YAML frontmatter to generate the page con
 <span class="w">        </span><span class="nt">attributes</span><span class="p">:</span>
 <span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&#39;&lt;string&gt;&#39;</span>
 <span class="w">    </span><span class="nt">returns</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;&lt;string&gt;&#39;</span>
+<span class="w">    </span><span class="nt">deprecated</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;&lt;string&gt;&#39;</span>
 <span class="w">    </span><span class="nt">throws</span><span class="p">:</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;&lt;string&gt;&#39;</span>
 <span class="w">        </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;&lt;string&gt;&#39;</span>
@@ -2597,6 +2589,7 @@ These templates pull the data from the YAML frontmatter to generate the page con
 </ul>
 </li>
 <li><code>returns</code> - Possible return values.</li>
+<li><code>deprecated</code> - Adds a notice about the deprecation of this Method in the form of a deprecation label and a <code>deprecated</code> section with the provided explanation.</li>
 <li><code>throws</code> - List of possible throws to display.<ul>
 <li><code>name</code> - Name of the throw to display.</li>
 <li><code>description</code> - Description of the throw.</li>

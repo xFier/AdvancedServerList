@@ -133,7 +133,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#profiles" class="md-skip">
+        <a href="#profiles-settings" class="md-skip">
           Skip to content
         </a>
       
@@ -218,21 +218,13 @@
     
     
       <div class="md-header__source">
-        <a
-  href="https://codeberg.org/Andre601/AdvancedServerList"
-  title="Go to repository"
-  class="md-source"
-  target="_blank"
-  rel="nofollow noreferral noopener"
->
+        <a href="https://codeberg.org/Andre601/AdvancedServerList" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.955.49A12 12 0 0 0 0 12.49a12 12 0 0 0 1.832 6.373L11.838 5.928a.187.14 0 0 1 .324 0l10.006 12.935A12 12 0 0 0 24 12.49a12 12 0 0 0-12-12 12 12 0 0 0-.045 0zm.375 6.467 4.416 16.553a12 12 0 0 0 5.137-4.213z"/></svg>
   </div>
   <div class="md-source__repository">
     Andre601/AdvancedServerList
-    <ul class="md-source__facts" data-md-component="codeberg-stats">
-    </ul>
   </div>
 </a>
       </div>
@@ -435,21 +427,13 @@
   </label>
   
     <div class="md-nav__source">
-      <a
-  href="https://codeberg.org/Andre601/AdvancedServerList"
-  title="Go to repository"
-  class="md-source"
-  target="_blank"
-  rel="nofollow noreferral noopener"
->
+      <a href="https://codeberg.org/Andre601/AdvancedServerList" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.955.49A12 12 0 0 0 0 12.49a12 12 0 0 0 1.832 6.373L11.838 5.928a.187.14 0 0 1 .324 0l10.006 12.935A12 12 0 0 0 24 12.49a12 12 0 0 0-12-12 12 12 0 0 0-.045 0zm.375 6.467 4.416 16.553a12 12 0 0 0 5.137-4.213z"/></svg>
   </div>
   <div class="md-source__repository">
     Andre601/AdvancedServerList
-    <ul class="md-source__facts" data-md-component="codeberg-stats">
-    </ul>
   </div>
 </a>
     </div>
@@ -2375,7 +2359,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#profiles_1" class="md-nav__link">
+  <a href="#profiles" class="md-nav__link">
     Profiles
   </a>
   
@@ -2433,14 +2417,41 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#enabled" class="md-nav__link">
+  <a href="#extraplayers-enabled" class="md-nav__link">
     Enabled
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#amount" class="md-nav__link">
+  <a href="#extraplayers-amount" class="md-nav__link">
+    Amount
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maxplayers" class="md-nav__link">
+    MaxPlayers
+  </a>
+  
+    <nav class="md-nav" aria-label="MaxPlayers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#maxplayers-enabled" class="md-nav__link">
+    Enabled
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maxplayers-amount" class="md-nav__link">
     Amount
   </a>
   
@@ -2483,7 +2494,7 @@
 
 
 <!-- Page content -->
-<h1 id="profiles">Profiles<a class="headerlink" href="#profiles" title="Permanent link">&para;</a></h1>
+<h1 id="profiles-settings">Profiles<a class="headerlink" href="#profiles-settings" title="Permanent link">&para;</a></h1>
 <p>AdvancedServerList allows the creation of multiple profiles.<br />
 A profile is a single YAML file located in the plugin's <code>profiles</code> directory containing multiple settings including <a href="#conditions">Conditions</a> and <a href="#priority">Priority</a>.</p>
 <div class="admonition info">
@@ -2558,7 +2569,7 @@ This means that a profile with no conditions and a priority of <code>1</code> wi
 </tr>
 </tbody>
 </table>
-<h2 id="profiles_1">Profiles<a class="headerlink" href="#profiles_1" title="Permanent link">&para;</a></h2>
+<h2 id="profiles">Profiles<a class="headerlink" href="#profiles" title="Permanent link">&para;</a></h2>
 <div class="admonition warning">
 <p class="admonition-title">Priority and Conditions are NOT supported!</p>
 </div>
@@ -2582,8 +2593,8 @@ If an option such as motd is not present in an entry will it check the file for 
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&#39;&lt;rainbow:!2&gt;Line</span><span class="nv"> </span><span class="s">B&lt;/rainbow&gt;&#39;</span>
 </code></pre></div>
 <div class="result"></p>
-<p><a class="glightbox" href="../assets/images/examples/profiles-example-1.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="profiles-example-1" src="../assets/images/examples/profiles-example-1.jpg" /></a><br />
-<a class="glightbox" href="../assets/images/examples/profiles-example-2.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="profiles-example-2" src="../assets/images/examples/profiles-example-2.jpg" /></a></p>
+<p><a class="glightbox" href="../assets/images/examples/profiles-example-1.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="profiles-example-1" loading="lazy" src="../assets/images/examples/profiles-example-1.jpg" /></a><br />
+<a class="glightbox" href="../assets/images/examples/profiles-example-2.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="profiles-example-2" loading="lazy" src="../assets/images/examples/profiles-example-2.jpg" /></a></p>
 </div>
 </details>
 <h2 id="motd">Motd<a class="headerlink" href="#motd" title="Permanent link">&para;</a></h2>
@@ -2599,7 +2610,7 @@ Normal colour and formatting codes such as <code>&lt;aqua&gt;</code> or <code>&l
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&#39;&lt;rainbow:!2&gt;|||||||||||||||||||||||||||||||||||||&lt;/rainbow&gt;&#39;</span>
 </code></pre></div>
 <div class="result"></p>
-<p><a class="glightbox" href="../assets/images/examples/motd-example.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="motd-example" src="../assets/images/examples/motd-example.jpg" /></a></p>
+<p><a class="glightbox" href="../assets/images/examples/motd-example.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="motd-example" loading="lazy" src="../assets/images/examples/motd-example.jpg" /></a></p>
 </div>
 </details>
 <h2 id="favicon">Favicon<a class="headerlink" href="#favicon" title="Permanent link">&para;</a></h2>
@@ -2624,7 +2635,7 @@ Normal colour and formatting codes such as <code>&lt;aqua&gt;</code> or <code>&l
 <span class="nt">favicon</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">${player uuid}</span>
 </code></pre></div>
 <div class="result"></p>
-<p><a class="glightbox" href="../assets/images/examples/favicon-example.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="hideplayers-example" src="../assets/images/examples/favicon-example.jpg" /></a></p>
+<p><a class="glightbox" href="../assets/images/examples/favicon-example.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="hideplayers-example" loading="lazy" src="../assets/images/examples/favicon-example.jpg" /></a></p>
 </div>
 </details>
 <h2 id="playercount">PlayerCount<a class="headerlink" href="#playercount" title="Permanent link">&para;</a></h2>
@@ -2645,7 +2656,7 @@ Additionally will the <a href="#text"><code>Text</code></a> and <a href="#hover"
 <span class="w">  </span><span class="nt">hidePlayers</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 </code></pre></div>
 <div class="result"></p>
-<p><a class="glightbox" href="../assets/images/examples/hideplayers-example.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="hideplayers-example" src="../assets/images/examples/hideplayers-example.jpg" /></a></p>
+<p><a class="glightbox" href="../assets/images/examples/hideplayers-example.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="hideplayers-example" loading="lazy" src="../assets/images/examples/hideplayers-example.jpg" /></a></p>
 </div>
 </details>
 <h3 id="hover">Hover<a class="headerlink" href="#hover" title="Permanent link">&para;</a></h3>
@@ -2667,7 +2678,7 @@ Additionally will the <a href="#text"><code>Text</code></a> and <a href="#hover"
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&#39;&lt;gold&gt;Line</span><span class="nv"> </span><span class="s">3&#39;</span>
 </code></pre></div>
 <div class="result"></p>
-<p><a class="glightbox" href="../assets/images/examples/hover-example.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="hover-example" src="../assets/images/examples/hover-example.jpg" /></a></p>
+<p><a class="glightbox" href="../assets/images/examples/hover-example.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="hover-example" loading="lazy" src="../assets/images/examples/hover-example.jpg" /></a></p>
 </div>
 </details>
 <h3 id="text">Text<a class="headerlink" href="#text" title="Permanent link">&para;</a></h3>
@@ -2692,7 +2703,7 @@ Due to this will your server appear as "outdated" to the client (Have the ping i
 <span class="w">  </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;&lt;yellow&gt;&lt;bold&gt;Cool</span><span class="nv"> </span><span class="s">text!&#39;</span>
 </code></pre></div>
 <div class="result"></p>
-<p><a class="glightbox" href="../assets/images/examples/text-example.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="hover-example" src="../assets/images/examples/text-example.jpg" /></a></p>
+<p><a class="glightbox" href="../assets/images/examples/text-example.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="hover-example" loading="lazy" src="../assets/images/examples/text-example.jpg" /></a></p>
 </div>
 </details>
 <h3 id="extraplayers">ExtraPlayers<a class="headerlink" href="#extraplayers" title="Permanent link">&para;</a></h3>
@@ -2700,10 +2711,10 @@ Due to this will your server appear as "outdated" to the client (Have the ping i
 <div class="admonition warning">
 <p class="admonition-title">Using this option will modify the <code>${server playersMax}</code> placeholder (Except in conditions)</p>
 </div>
-<h4 id="enabled">Enabled<a class="headerlink" href="#enabled" title="Permanent link">&para;</a></h4>
+<h4 id="extraplayers-enabled">Enabled<a class="headerlink" href="#extraplayers-enabled" title="Permanent link">&para;</a></h4>
 <p>Boolean option to set whether the extra players feature should be used or not.<br />
 When set to <code>true</code> will the max amount of players be modified by taking the current amount of online players, add <a href="#amount"><code>Amount</code></a> more to it and use it.</p>
-<h4 id="amount">Amount<a class="headerlink" href="#amount" title="Permanent link">&para;</a></h4>
+<h4 id="extraplayers-amount">Amount<a class="headerlink" href="#extraplayers-amount" title="Permanent link">&para;</a></h4>
 <p>Sets the number to add to the current online players to then use as the new max players count.</p>
 <p>As an example, setting this to <code>1</code> while <code>10</code> players are online will display <code>11</code>, while <code>-1</code> would display <code>9</code>.</p>
 <details class="example">
@@ -2721,7 +2732,39 @@ When set to <code>true</code> will the max amount of players be modified by taki
 <span class="w">    </span><span class="nt">amount</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span>
 </code></pre></div>
 <div class="result"></p>
-<p><a class="glightbox" href="../assets/images/examples/extraplayers-example.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="hover-example" src="../assets/images/examples/extraplayers-example.jpg" /></a></p>
+<p><a class="glightbox" href="../assets/images/examples/extraplayers-example.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="extraplayers-example" loading="lazy" src="../assets/images/examples/extraplayers-example.jpg" /></a></p>
+</div>
+</details>
+<h3 id="maxplayers">MaxPlayers<a class="headerlink" href="#maxplayers" title="Permanent link">&para;</a></h3>
+<p>Contains options to set the max number of players allowed to join the server. This has only a visual effect and won't actually influence how many players can join your server.</p>
+<p>Note that this feature is ignored should <a href="#extraplayers"><code>extraPlayers</code></a> be enabled.</p>
+<p>In case <a href="#hideplayers"><code>hidePlayers</code></a> is enabled will the max player count not be displayed, but still changed by this option.<br />
+Should <a href="#text"><code>text</code></a> be set to a non-empty String will the max player count only be displayed when <code>${server playersMax}</code> is used.</p>
+<div class="admonition warning">
+<p class="admonition-title">Using this option will modify the <code>${server playersMax}</code> placeholder (Except in conditions)</p>
+</div>
+<h4 id="maxplayers-enabled">Enabled<a class="headerlink" href="#maxplayers-enabled" title="Permanent link">&para;</a></h4>
+<p>Boolean option to set whether the max players feature should be used or not.<br />
+When set to <code>true</code> will the value usually displaying how many players can join be changed to what you've set in the <a href="#maxplayers-amount"><code>amount</code></a> option.</p>
+<h4 id="maxplayers-amount">Amount<a class="headerlink" href="#maxplayers-amount" title="Permanent link">&para;</a></h4>
+<p>Sets the number to display as the max number of players allowed to join your server.<br />
+Note that this will also affect the <code>${server playersMax}</code> placeholder, except when it is used inside conditions.</p>
+<details class="example">
+<summary>Example</summary>
+<p><div class="highlight"><span class="filename">YAML file</span><pre><span></span><code><span class="nt">priority</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span>
+
+<span class="c1"># We use just colour to hide the MOTD</span>
+<span class="nt">motd</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&#39;&lt;grey&gt;&#39;</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&#39;&lt;grey&gt;&#39;</span>
+
+<span class="nt">playerCount</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">maxPlayers</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="w">    </span><span class="nt">amount</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span>
+</code></pre></div>
+<div class="result"></p>
+<p><a class="glightbox" href="../assets/images/examples/maxplayers-example.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="maxplayes-example" loading="lazy" src="../assets/images/examples/maxplayers-example.jpg" /></a></p>
 </div>
 </details>
 <div class="footnote">
