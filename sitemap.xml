@@ -2,182 +2,182 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://asl.andre601.ch/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/changelog/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/structure/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/api/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/api/ch.andre601.advancedserverlist.api/advancedserverlistapi/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/api/ch.andre601.advancedserverlist.api/placeholderprovider/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/api/ch.andre601.advancedserverlist.api/events/genericserverlistevent/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/api/ch.andre601.advancedserverlist.api/exceptions/invalidplaceholderproviderexception/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/api/ch.andre601.advancedserverlist.api/objects/genericplayer/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/api/ch.andre601.advancedserverlist.api/objects/genericserver/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/api/ch.andre601.advancedserverlist.api/objects/nullbool/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/api/ch.andre601.advancedserverlist.api/profiles/profileentry/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/api/ch.andre601.advancedserverlist.api/profiles/profileentry/builder/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/platform-bukkit/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/platform-bukkit/ch.andre601.advancedserverlist.api.bukkit/events/preserverlistsetevent/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/platform-bukkit/ch.andre601.advancedserverlist.api.bukkit/objects/bukkitplayer/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/platform-bukkit/ch.andre601.advancedserverlist.api.bukkit/objects/bukkitserver/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/platform-bungeecord/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/platform-bungeecord/ch.andre601.advancedserverlist.api.bungeecord/events/preserverlistsetevent/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/platform-bungeecord/ch.andre601.advancedserverlist.api.bungeecord/objects/bungeeplayer/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/platform-bungeecord/ch.andre601.advancedserverlist.api.bungeecord/objects/bungeeproxy/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/platform-velocity/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/platform-velocity/ch.andre601.advancedserverlist.api.velocity/events/preserverlistsetevent/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/platform-velocity/ch.andre601.advancedserverlist.api.velocity/objects/velocityplayer/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/api/reference/platform-velocity/ch.andre601.advancedserverlist.api.velocity/objects/velocityproxy/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/commands/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/examples/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/migration/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/migration/v1_5_3-to-v1_6_0/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/migration/v1_9_0-to-v1_10_0/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/placeholderapi/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/profiles/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/profiles/formatting/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asl.andre601.ch/profiles/placeholders/</loc>
-         <lastmod>2023-09-26</lastmod>
+         <lastmod>2023-10-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
