@@ -2532,7 +2532,7 @@ An example class to show how the page structure may look like.
 </code></pre></div></p>
 <h2 id="custom-html-tags">custom HTML tags<a class="headerlink" href="#custom-html-tags" title="Permanent link">&para;</a></h2>
 <p>There is a collection of custom HTML tags that are used to render specific text in certain styles.<br />
-Below is a list of all custom tags. Note that these tags only render on the actual site and not within the repository.</p>
+Below is a list of all custom tags. Note that these tags only render on the actual site and not within the repository when viewing the source.</p>
 <ul>
 <li><code>&lt;api__class&gt;&lt;/api__class&gt;</code>: <api__class></api__class></li>
 <li><code>&lt;api__interface&gt;&lt;/api__interface&gt;</code>: <api__interface></api__interface></li>
@@ -2548,11 +2548,11 @@ Below is a list of all custom tags. Note that these tags only render on the actu
 <p>In addition are there two classes used within <code>span</code> tags to colour the text, to indicate their type:</p>
 <ul>
 <li><code>&lt;span class="api-type__object"&gt;Object&lt;/span&gt;</code>: <span class="api-type__object">Object</span></li>
-<li><code>&lt;span class="api-type__primitive"&gt;Object&lt;/span&gt;</code>: <span class="api-type__primitive">Primitive</span></li>
+<li><code>&lt;span class="api-type__primitive"&gt;primitive&lt;/span&gt;</code>: <span class="api-type__primitive">primitive</span></li>
 </ul>
 <h2 id="auto-generated-content">Auto-generated content<a class="headerlink" href="#auto-generated-content" title="Permanent link">&para;</a></h2>
-<p>The page template used checks for specific YAML frontmatter in the page to include other templates.<br />
-These templates pull the data from the YAML frontmatter to generate the page content which is then appendet to the already existing page content.</p>
+<p>A page template is used to auto-generate the page content based on available YAML frontmatter.<br />
+Depending on the frontmatter available will the template call a jinja2 Macro to generate a Summary and Detailed info on the page for the respective frontmatter data.</p>
 <p>There are 5 frontmatter options, each following a specific structure:</p>
 <ul>
 <li><a href="#constructors"><code>Constructors</code></a></li>
@@ -2590,7 +2590,7 @@ These templates pull the data from the YAML frontmatter to generate the page con
 <li><code>attributes</code> - List of attributes (i.e. nullability) to display. The provided values will be turned into <code>&lt;api__{name}&gt;&lt;/api__{name}&gt;</code> tags that will be prependet to the parameter name.</li>
 </ul>
 </li>
-<li><code>deprecated</code> - Adds a notice about the deprecation of this Constructor in the form of a deprecation label and a <code>deprecated</code> section with the provided explanation.</li>
+<li><code>deprecated</code> - Adds a notice about the deprecation of this Constructor in the form of a deprecation label and a <code>deprecated</code> section with the provided <code>&lt;string&gt;</code> as explanation.</li>
 <li><code>throws</code> - List of possible throws to display.<ul>
 <li><code>name</code> - Name of the throw to display.</li>
 <li><code>description</code> - Description of the throw.</li>
@@ -2628,10 +2628,10 @@ These templates pull the data from the YAML frontmatter to generate the page con
 </code></pre></div>
 <p><strong>Options:</strong></p>
 <ul>
-<li><code>name</code> - The name to display for the Constructor summary and detail. This should include any parameters the Constructor has, but without any parameter name.</li>
-<li><code>description</code> - The description to display for the Constructor.</li>
+<li><code>name</code> - The name to display for the Enum summary and detail. This should include any parameters the Enum has, but without any parameter name.</li>
+<li><code>description</code> - The description to display for the Enum.</li>
 <li><code>type</code> - The return type to display. Will default to <code>{{ page.title }}</code> if not set.</li>
-<li><code>deprecated</code> - Adds a notice about the deprecation of this Enum in the form of a deprecation label and a <code>deprecated</code> section with the provided explanation.</li>
+<li><code>deprecated</code> - Adds a notice about the deprecation of this Enum in the form of a deprecation label and a <code>deprecated</code> section with the provided <code>&lt;string&gt;</code> as explanation.</li>
 <li><code>seealso</code> - List of "See also" text to display.<ul>
 <li><code>name</code> - Name of the See also link.</li>
 <li><code>link</code> - Link (Relative, absolute or URL) to use for the See also text.</li>
@@ -2665,8 +2665,8 @@ These templates pull the data from the YAML frontmatter to generate the page con
 </code></pre></div>
 <p><strong>Options:</strong></p>
 <ul>
-<li><code>name</code> - The name to display for the Constructor summary and detail. This should include any parameters the Constructor has, but without any parameter name.</li>
-<li><code>description</code> - The description to display for the Constructor.</li>
+<li><code>name</code> - The name to display for the Method summary and detail. This should include any parameters the Method has, but without any parameter name.</li>
+<li><code>description</code> - The description to display for the Method.</li>
 <li><code>type</code> - Options for object type to display.<ul>
 <li><code>name</code> - Displayed name of the object.</li>
 <li><code>type</code> - Object type. Can be either <code>object</code> or <code>primitive</code> which would be used in a class name for styling.</li>
@@ -2682,7 +2682,7 @@ These templates pull the data from the YAML frontmatter to generate the page con
 </ul>
 </li>
 <li><code>returns</code> - Possible return values.</li>
-<li><code>deprecated</code> - Adds a notice about the deprecation of this Method in the form of a deprecation label and a <code>deprecated</code> section with the provided explanation.</li>
+<li><code>deprecated</code> - Adds a notice about the deprecation of this Method in the form of a deprecation label and a <code>deprecated</code> section with the provided <code>&lt;string&gt;</code> as explanation.</li>
 <li><code>throws</code> - List of possible throws to display.<ul>
 <li><code>name</code> - Name of the throw to display.</li>
 <li><code>description</code> - Description of the throw.</li>
