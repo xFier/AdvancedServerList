@@ -2464,12 +2464,10 @@
 
 <!-- Page content -->
 <h1 id="placeholderapi-placeholder-support">PlaceholderAPI Placeholder support<a class="headerlink" href="#placeholderapi-placeholder-support" title="Permanent link">&para;</a></h1>
-<p>AdvancedServerList provides support for <a href="https://www.spigotmc.org/resources/6245/">PlaceholderAPI</a> placeholders to be used, while also providing its own set of placeholders.</p>
+<p>AdvancedServerList provides support for <a href="https://hangar.papermc.io/HelpChat/PlaceholderAPI">PlaceholderAPI</a> placeholders to be used, while also providing its own set of placeholders.</p>
 <h2 id="own-placeholders">Own placeholders<a class="headerlink" href="#own-placeholders" title="Permanent link">&para;</a></h2>
-<p>The following list of placeholders is available for use through PlaceholderAPI.<br />
-Please note that they are only available through the Bukkit version of AdvancedServerList.</p>
-<p>Also note, that AdvancedServerList will try to find and use a <a href="../profiles/">Server List profile</a> that has maching conditions for the player, before returning any placeholder values.<br />
-This means that the output of a placeholder depends on what profile (if any) matches for the player.</p>
+<p>The below listed placeholders can be used through PlaceholderAPI in other plugins.<br />
+Note that the values depend on the player it is used for, as AdvancedServerList will try and get a matching <a href="../profiles/">Server List Profile</a> to display values from.</p>
 <table>
 <thead>
 <tr>
@@ -2484,19 +2482,27 @@ This means that the output of a placeholder depends on what profile (if any) mat
 </tr>
 <tr>
 <td><code>%asl_extra_players_max%</code></td>
-<td>Gives the value of <code>playerCount.extraPlayers.amount</code> from a matching Profile.</td>
+<td>Gives the value of <code>playerCount -&gt; extraPlayers -&gt; amount</code> from a matching Profile. Can return <code>null</code>.</td>
 </tr>
 <tr>
 <td><code>%asl_motd%</code></td>
-<td>Gives the value of <code>motd</code> in the matching Profile.</td>
+<td>Gives the value of <code>motd</code> in the matching Profile as a single String.</td>
 </tr>
 <tr>
 <td><code>%asl_playercount_hover%</code></td>
-<td>Gives the value of <code>playerCount.hover</code> from a matching Profile.</td>
+<td>Gives the value of <code>playerCount -&gt; hover</code> from a matching Profile as a single String.</td>
 </tr>
 <tr>
 <td><code>%asl_playercount_text%</code></td>
-<td>Gives the value of <code>playerCount.text</code> from a matching Profile.</td>
+<td>Gives the value of <code>playerCount -&gt; text</code> from a matching Profile.</td>
+</tr>
+<tr>
+<td><code>%asl_players_max%</code></td>
+<td>Gives the value of <code>playerCount -&gt; maxPlayers -&gt; amount</code> from a matching Profile. Can return <code>null</code>.</td>
+</tr>
+<tr>
+<td><code>%asl_players_max_modified%</code></td>
+<td>Returns the output of <code>${server playersMax}</code>.</td>
 </tr>
 </tbody>
 </table>
